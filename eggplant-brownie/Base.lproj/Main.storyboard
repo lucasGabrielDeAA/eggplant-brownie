@@ -50,7 +50,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjE-Aq-oRT">
                                 <rect key="frame" x="140" y="583" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add"/>
+                                <state key="normal" title="Add Meal"/>
                                 <connections>
                                     <action selector="addMeal" destination="BYZ-38-t0r" eventType="touchUpInside" id="yE8-ZO-YKD"/>
                                 </connections>
