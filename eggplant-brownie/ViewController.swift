@@ -8,10 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var mealNameTextField: UITextField!
+    @IBOutlet var happynesLevelSlider: UISlider!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func addMeal() {
+        let mealName = mealNameTextField.text
+        let happynessLevel = Int(happynesLevelSlider.value)
+        
+        print("After ate a \(mealName), I became level \(happynessLevel) of happyness")
     }
 
 
