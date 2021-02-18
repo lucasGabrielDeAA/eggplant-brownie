@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let mealName = mealNameTextField.text
         let happynessLevel = Int(happynesLevelSlider.value)
         
-        print("After ate a \(mealName), I became level \(happynessLevel) of happyness")
+        print("After eat a \(mealName), I became level \(happynessLevel) of happyness")
     }
 
 
