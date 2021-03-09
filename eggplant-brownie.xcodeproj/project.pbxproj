@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6428CC4825F7B39E00C0E96C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428CC4725F7B39E00C0E96C /* Item.swift */; };
+		6428CC4B25F7B3BE00C0E96C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428CC4A25F7B3BE00C0E96C /* Meal.swift */; };
 		64E67C6125CC33FC00698424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E67C6025CC33FC00698424 /* AppDelegate.swift */; };
 		64E67C6325CC33FC00698424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E67C6225CC33FC00698424 /* SceneDelegate.swift */; };
 		64E67C6525CC33FC00698424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E67C6425CC33FC00698424 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6428CC4725F7B39E00C0E96C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6428CC4A25F7B3BE00C0E96C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		64BB22E725CDB247002E6086 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		64E67C5D25CC33FC00698424 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E67C6025CC33FC00698424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6428CC4E25F7B4BE00C0E96C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6428CC4725F7B39E00C0E96C /* Item.swift */,
+				6428CC4A25F7B3BE00C0E96C /* Meal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6428CC4F25F7B4EB00C0E96C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64E67C6425CC33FC00698424 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6428CC5025F7B52300C0E96C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E67C6625CC33FC00698424 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64E67C5425CC33FC00698424 = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +86,11 @@
 		64E67C5F25CC33FC00698424 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				6428CC4E25F7B4BE00C0E96C /* Models */,
+				6428CC4F25F7B4EB00C0E96C /* Controllers */,
+				6428CC5025F7B52300C0E96C /* View */,
 				64E67C6025CC33FC00698424 /* AppDelegate.swift */,
 				64E67C6225CC33FC00698424 /* SceneDelegate.swift */,
-				64E67C6425CC33FC00698424 /* ViewController.swift */,
-				64E67C6625CC33FC00698424 /* Main.storyboard */,
 				64E67C6925CC33FD00698424 /* Assets.xcassets */,
 				64BB22E725CDB247002E6086 /* MyPlayground.playground */,
 				64E67C6B25CC33FD00698424 /* LaunchScreen.storyboard */,
@@ -139,6 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6428CC4B25F7B3BE00C0E96C /* Meal.swift in Sources */,
+				6428CC4825F7B39E00C0E96C /* Item.swift in Sources */,
 				64E67C6525CC33FC00698424 /* ViewController.swift in Sources */,
 				64E67C6125CC33FC00698424 /* AppDelegate.swift in Sources */,
 				64E67C6325CC33FC00698424 /* SceneDelegate.swift in Sources */,

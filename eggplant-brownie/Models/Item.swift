@@ -8,8 +8,8 @@
 import UIKit
 
 class Item: NSObject {
-    var name: String
-    var calories: Double
+    let name: String
+    let calories: Double
     
     init(name: String, calories: Double) {
         self.name = name

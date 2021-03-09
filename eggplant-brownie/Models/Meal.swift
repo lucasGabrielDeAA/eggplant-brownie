@@ -8,9 +8,9 @@
 import UIKit
 
 class Meal: NSObject {
-    var name: String
-    var happyness: Int
-    var items: Array<Item> = []
+    let name: String
+    let happyness: Int
+    let items: Array<Item> = []
     
     init(name: String, happyness: Int) {
         self.name = name
